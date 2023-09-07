@@ -1,0 +1,29 @@
+.navigation {
+  background-color: #f2be22;
+}
+
+.links_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 2px;
+}
+
+.link,
+.active_link {
+  font-size: 18px;
+}
+
+.active_link,
+.link:hover {
+  color: #d2001a;
+}
+
+.animated_line {
+  outline: 2px solid #d2001a;
+}
+
+.link_label {
+  padding: 15px 0px;
+}

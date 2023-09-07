@@ -1,0 +1,24 @@
+.navigation {
+  background-color: #f29727;
+  padding: 0px 10px;
+}
+
+.links_wrapper {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.link,
+.active_link {
+  font-size: 18px;
+}
+
+.active_link,
+.link:hover {
+  color: #d2001a;
+}

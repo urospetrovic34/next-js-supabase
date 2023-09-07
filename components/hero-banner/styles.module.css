@@ -1,0 +1,25 @@
+.hero_background {
+  background: linear-gradient(
+    205deg,
+    rgba(255, 162, 0, 1) 0%,
+    rgba(255, 248, 0, 1) 0%,
+    rgba(255, 171, 0, 1) 51%,
+    rgba(255, 119, 0, 1) 84%,
+    rgba(255, 98, 0, 1) 100%
+  );
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.heading {
+  color: #d2001a;
+  font-size: 46px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 23px;
+  width: 60%;
+}
