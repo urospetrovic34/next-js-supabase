@@ -1,6 +1,15 @@
 .basic_wrapper {
-  padding: 15px 30px;
+  padding: 15px;
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
+}
+
+.image_card_grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }

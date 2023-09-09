@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+import ReusableButton from "../reusable/button";
+
 import styles from "./styles.module.css";
 
 const HeroBanner = () => {
@@ -9,6 +13,11 @@ const HeroBanner = () => {
         this text serves no functional purpose but to irritate both you and me.
         Written by an author.
       </p>
+      <span>
+        <Link href="/about">
+          <ReusableButton type="hero_banner_button" text="Learn More" />
+        </Link>
+      </span>
     </div>
   );
 };

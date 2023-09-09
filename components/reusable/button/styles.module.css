@@ -1,0 +1,34 @@
+.red {
+  background-color: transparent;
+}
+
+.red:hover {
+  transition: background-color 0.5s ease-out;
+  background-color: red;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  border-radius: 2px;
+  margin: 0;
+  font-size: 100%;
+  padding: 10px 20px;
+}
+
+.hero_banner_button {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 15px 30px;
+}
+
+.hero_banner_button:hover {
+  border: 2px solid #d2001a;
+  color: #d2001a;
+  transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+}

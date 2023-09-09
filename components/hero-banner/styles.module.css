@@ -11,6 +11,9 @@
   height: 400px;
   padding: 20px;
   border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .heading {
@@ -19,7 +22,6 @@
 }
 
 .description {
-  margin-top: 20px;
   font-size: 23px;
   width: 60%;
 }
