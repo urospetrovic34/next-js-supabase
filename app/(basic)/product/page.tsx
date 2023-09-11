@@ -14,6 +14,7 @@ interface ProductProps {
 async function getProducts() {
   const res = await fetch(`${process.env.API_HOST}/products`, {
     next: {
+      revalidate: 30,
       tags: ["products"],
     },
     headers: {
