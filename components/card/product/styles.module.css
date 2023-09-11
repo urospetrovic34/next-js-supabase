@@ -3,8 +3,8 @@
 }
 
 .image_container {
-  position: relative;
   height: 350px;
+  position: relative;
 }
 
 .info_container {

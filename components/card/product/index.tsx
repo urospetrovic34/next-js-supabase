@@ -17,10 +17,13 @@ const CardProduct = ({ id, name, price, image }: CardProductProps) => {
         <Link href={`/product/${id}`}>
           <Image
             src={image}
-            fill
             alt={name}
-            style={{ objectFit: "cover" }}
-            sizes="500px"
+            fill
+            style={{
+              objectFit: "cover",
+            }}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
         </Link>
       </div>
