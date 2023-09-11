@@ -1,6 +1,6 @@
-import ReusableButton from "../../reusable/button";
-
 import styles from "./styles.module.css";
+
+import ReusableButton from "components/reusable/button";
 
 interface CardImageProps {
   background?: string;

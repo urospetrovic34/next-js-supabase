@@ -1,0 +1,23 @@
+.card_container {
+  border: 1px solid black;
+}
+
+.image_container {
+  position: relative;
+  height: 350px;
+}
+
+.info_container {
+  padding: 5px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.price_link_row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
