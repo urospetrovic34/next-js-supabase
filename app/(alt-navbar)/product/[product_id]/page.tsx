@@ -14,7 +14,6 @@ interface ProductProps {
 }
 
 async function getSingleProduct(product_id: string) {
-  console.log(product_id);
   const res = await fetch(
     `${process.env.API_HOST}/products?id=eq.${product_id}`,
     {
@@ -28,6 +27,11 @@ async function getSingleProduct(product_id: string) {
       },
     }
   );
+  
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+
   return res.json();
 }
 

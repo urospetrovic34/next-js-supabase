@@ -1,0 +1,13 @@
+.center_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: calc(100vh - 60px);
+}
+
+.error_text {
+  margin-top: 10px;
+  width: 450px;
+  text-align: center;
+}
