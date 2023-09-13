@@ -1,1 +1,1 @@
-This project will not contain any Supabase stuff whatsoever
+Next.js Project with Supabase API, made for testing out Next 13.
